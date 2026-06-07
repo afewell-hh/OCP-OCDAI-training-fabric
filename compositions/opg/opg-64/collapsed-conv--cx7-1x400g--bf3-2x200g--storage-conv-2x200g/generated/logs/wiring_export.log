@@ -1,0 +1,14 @@
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+Exporting wiring YAML for plan: Training OPG-64 Collapsed Converged (ID: 37)
+
+[OK] Export complete: /tmp/ra_pipeline/training_opg64_collapsed_conv/wiring_tmp/wiring-converged.yaml
+  plan_id:    37
+  fabric:     converged
+  timestamp:  2026-06-07T06:09:07.756239+00:00
+  sha256:     05f3551e4236d764184fc07ef9c5e4edbeb0f432aa6e3653323dd9d0c4781c62
+  bytes:      43227
+  lines:      2078
+  documents:  132
