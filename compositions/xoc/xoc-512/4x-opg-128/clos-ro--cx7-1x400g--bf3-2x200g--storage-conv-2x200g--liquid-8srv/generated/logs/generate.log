@@ -1,0 +1,62 @@
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+✓ Created site: Xoc512 4Xopg128 Ro Liq (xoc512-4xopg128-ro-liq)
+
+Topology Plan: Training XOC-512 4x OPG-128 Clos RO Liquid 8srv
+  ID: 48
+  Status: draft
+  Server Classes: 1
+  Switch Classes: 4
+
+✓ Recalculated switch quantities
+  - be-rail-leaf: calculated=8 override=None effective=8
+  - fe-leaf: calculated=2 override=None effective=2
+  - be-spine: calculated=4 override=None effective=4
+  - fe-spine: calculated=1 override=None effective=1
+
+=== GENERATING OBJECTS ===
+
+✓ Generation complete!
+
+Created:
+  Devices: 79
+  Interfaces: 1280
+  Cables: 960
+
+  Site: Xoc512 4Xopg128 Ro Liq
+  Status: planned
+
+  Tagged with: hedgehog-generated
+  Custom field: hedgehog_plan_id=48
+
+💡 Next steps:
+  - View devices in NetBox UI
+  - Filter by tag: hedgehog-generated
+  - Or custom field: hedgehog_plan_id=48
+  - Check cable connections
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+
+[OK] Export complete: /tmp/ra_pipeline/training_xoc512_4xopg128_clos_ro_liquid_8srv/netbox/plan_inventory.json
+  plan_id:    48
+  sha256:     53d11ab62ff33e5f61dbabe6b882ae99460740657f8a371db12c9bb81238219c
+  bytes:      2029769
+  lines:      83403
+  devices:    79
+  modules:    2144
+  interfaces: 2270
+  cables:     960
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+
+[OK] Export complete: /tmp/ra_pipeline/training_xoc512_4xopg128_clos_ro_liquid_8srv/netbox/interface_connections.csv
+  plan_id:    48
+  sha256:     68806df79e6776e163445943aec907a9eca4c7ef65ab414147f9b8f26f8b5982
+  bytes:      72942
+  rows:       960
