@@ -1,0 +1,23 @@
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+Exporting wiring YAML for plan: Training OPG-64 Mesh Converged SH (ID: 39)
+
+[OK] Export complete: /tmp/ra_pipeline/training_opg64_mesh_conv_sh/wiring_tmp/wiring-inb-mgmt.yaml
+  plan_id:    39
+  fabric:     inb-mgmt
+  timestamp:  2026-06-07T21:04:11.074479+00:00
+  sha256:     9da26e046f933bc90062a2168bb1593799f25c368a16e7052f9a7209d07b5004
+  bytes:      8114
+  lines:      396
+  documents:  37
+
+[OK] Export complete: /tmp/ra_pipeline/training_opg64_mesh_conv_sh/wiring_tmp/wiring-soc-storage-scale-out.yaml
+  plan_id:    39
+  fabric:     soc-storage-scale-out
+  timestamp:  2026-06-07T21:04:13.657219+00:00
+  sha256:     f813e3726f1616d6bd29cedeb09bc4e0ddcb894f41fe8f034e5fa90cf8392fd5
+  bytes:      34371
+  lines:      1463
+  documents:  111

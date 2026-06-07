@@ -1,0 +1,60 @@
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+✓ Created site: Opg64 Mesh Conv Ro (opg64-mesh-conv-ro)
+
+Topology Plan: Training OPG-64 Mesh Converged RO
+  ID: 38
+  Status: draft
+  Server Classes: 5
+  Switch Classes: 3
+
+✓ Recalculated switch quantities
+  - inb_mgmt_leaf: calculated=1 override=None effective=1
+  - oob_leaf: calculated=1 override=None effective=1
+
+=== GENERATING OBJECTS ===
+
+✓ Generation complete!
+
+Created:
+  Devices: 21
+  Interfaces: 130
+  Cables: 128
+
+  Site: Opg64 Mesh Conv Ro
+  Status: planned
+
+  Tagged with: hedgehog-generated
+  Custom field: hedgehog_plan_id=38
+
+💡 Next steps:
+  - View devices in NetBox UI
+  - Filter by tag: hedgehog-generated
+  - Or custom field: hedgehog_plan_id=38
+  - Check cable connections
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+
+[OK] Export complete: /tmp/ra_pipeline/training_opg64_mesh_conv_ro/netbox/plan_inventory.json
+  plan_id:    38
+  sha256:     f7e2c2afd5e6573f6e7ae2a5ae21734a06c1e7e2868ff4be9d6e4a8e67a9f039
+  bytes:      317709
+  lines:      12750
+  devices:    21
+  modules:    259
+  interfaces: 481
+  cables:     128
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+
+[OK] Export complete: /tmp/ra_pipeline/training_opg64_mesh_conv_ro/netbox/interface_connections.csv
+  plan_id:    38
+  sha256:     67be7832838377d96a9cf0525bfc17e152f2dce8176c90be12d3368f89e4078f
+  bytes:      12526
+  rows:       128
