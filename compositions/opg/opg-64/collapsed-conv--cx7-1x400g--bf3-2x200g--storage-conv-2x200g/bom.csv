@@ -1,0 +1,14 @@
+section,module_type_model,module_type_description,hedgehog_class,manufacturer,quantity,cage_type,medium,connector,standard,reach_class,wavelength_nm,host_lane_count,host_serdes_gbps_per_lane,optical_lane_pattern,gearbox_present,cable_assembly_type,breakout_topology,is_cable_assembly
+server,OCP-Compliant xPU Server,,compute_xpu,Generic,8,,,,,,,,,,,,,false
+server,Hedgehog Controller x86,,hh_controller,Generic,1,,,,,,,,,,,,,false
+server,Hedgehog Gateway x86,,hh_gateway,Generic,2,,,,,,,,,,,,,false
+server,OCP-Compliant Metadata Server,,metadata_srv,Generic,3,,,,,,,,,,,,,false
+server,OCP-Compliant Storage Server,,storage_srv,Generic,3,,,,,,,,,,,,,false
+switch,celestica-ds5000,,conv_leaf,Celestica,2,,,,,,,,,,,,,false
+switch,celestica-ds5000,,conv_spine,Celestica,2,,,,,,,,,,,,,false
+switch,Celestica DS1000,,oob_leaf,Celestica,2,,,,,,,,,,,,,false
+nic,BMC Management Port,,,Generic,17,,,,,,,,,,Unknown,,,false
+nic,Generic Dual-Port 200G NIC,,,Generic,9,,,,,,,,,,Unknown,,,false
+nic,Generic xPU Backend 8x400G NIC,,,NVIDIA,8,,,,,,,,,,Unknown,,,false
+nic,Generic xPU Frontend 2x200G NIC,,,NVIDIA,8,,,,,,,,,,Unknown,,,false
+# suppressed_switch_cable_assembly_count,0
