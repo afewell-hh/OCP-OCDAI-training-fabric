@@ -1,0 +1,64 @@
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+✓ Created site: Xoc1024 2Xopg512 Dp Liq (xoc1024-2xopg512-dp-liq)
+
+Topology Plan: Training XOC-1024 2x OPG-512 Dual Plane Liquid 8srv
+  ID: 53
+  Status: draft
+  Server Classes: 1
+  Switch Classes: 6
+
+✓ Recalculated switch quantities
+  - be-plane-a-leaf: calculated=16 override=None effective=16
+  - be-plane-b-leaf: calculated=16 override=None effective=16
+  - fe-leaf: calculated=2 override=None effective=2
+  - be-plane-a-spine: calculated=8 override=None effective=8
+  - be-plane-b-spine: calculated=8 override=None effective=8
+  - fe-spine: calculated=1 override=None effective=1
+
+=== GENERATING OBJECTS ===
+
+✓ Generation complete!
+
+Created:
+  Devices: 179
+  Interfaces: 4480
+  Cables: 3392
+
+  Site: Xoc1024 2Xopg512 Dp Liq
+  Status: planned
+
+  Tagged with: hedgehog-generated
+  Custom field: hedgehog_plan_id=53
+
+💡 Next steps:
+  - View devices in NetBox UI
+  - Filter by tag: hedgehog-generated
+  - Or custom field: hedgehog_plan_id=53
+  - Check cable connections
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+
+[OK] Export complete: /tmp/ra_pipeline/training_xoc1024_2xopg512_dual_plane_liquid_8srv/netbox/plan_inventory.json
+  plan_id:    53
+  sha256:     908edf3cd472f25b92f8427205a46481a9fac3fd680d7dafec0e09d1d6fc18b1
+  bytes:      6982702
+  lines:      282035
+  devices:    179
+  modules:    6720
+  interfaces: 7974
+  cables:     3392
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+
+[OK] Export complete: /tmp/ra_pipeline/training_xoc1024_2xopg512_dual_plane_liquid_8srv/netbox/interface_connections.csv
+  plan_id:    53
+  sha256:     c30fcec84ccc2d4a45c7bfeb91e798ad991136b06123a0a1a2ca9671c183305e
+  bytes:      286034
+  rows:       3392
