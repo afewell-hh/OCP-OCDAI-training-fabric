@@ -1,0 +1,62 @@
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+✓ Created site: Xoc512 4Xopg128 Sh Liq (xoc512-4xopg128-sh-liq)
+
+Topology Plan: Training XOC-512 4x OPG-128 Clos SH Liquid 8srv
+  ID: 49
+  Status: draft
+  Server Classes: 1
+  Switch Classes: 4
+
+✓ Recalculated switch quantities
+  - be-leaf: calculated=8 override=None effective=8
+  - fe-leaf: calculated=2 override=None effective=2
+  - be-spine: calculated=4 override=None effective=4
+  - fe-spine: calculated=1 override=None effective=1
+
+=== GENERATING OBJECTS ===
+
+✓ Generation complete!
+
+Created:
+  Devices: 79
+  Interfaces: 1280
+  Cables: 960
+
+  Site: Xoc512 4Xopg128 Sh Liq
+  Status: planned
+
+  Tagged with: hedgehog-generated
+  Custom field: hedgehog_plan_id=49
+
+💡 Next steps:
+  - View devices in NetBox UI
+  - Filter by tag: hedgehog-generated
+  - Or custom field: hedgehog_plan_id=49
+  - Check cable connections
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+
+[OK] Export complete: /tmp/ra_pipeline/training_xoc512_4xopg128_clos_sh_liquid_8srv/netbox/plan_inventory.json
+  plan_id:    49
+  sha256:     f8880f66a3344f34eea054b28642e11b34be1702d93d325e8b1aa9d1870e0c2d
+  bytes:      2015529
+  lines:      83403
+  devices:    79
+  modules:    2144
+  interfaces: 2270
+  cables:     960
+🧬 loaded config '/etc/netbox/config/configuration.py'
+🧬 loaded config '/etc/netbox/config/extra.py'
+🧬 loaded config '/etc/netbox/config/logging.py'
+🧬 loaded config '/etc/netbox/config/plugins.py'
+
+[OK] Export complete: /tmp/ra_pipeline/training_xoc512_4xopg128_clos_sh_liquid_8srv/netbox/interface_connections.csv
+  plan_id:    49
+  sha256:     52100dfa3cdce9b7818229f6b73e2abb598bcde2d718781e5bc2f843b1e10ecd
+  bytes:      69102
+  rows:       960
